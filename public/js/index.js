@@ -14,7 +14,6 @@ const toast = document.querySelector('.toast');
 const host = 'http://localhost:8000/' ;
 const uploadurl = `${host}api/files`;
 
-
 dropzone.addEventListener("dragover", (e) => {
     
     e.preventDefault();
@@ -32,7 +31,7 @@ dropzone.addEventListener("drop", (e) => {
     e.preventDefault();
     dropzone.classList.remove("dragged");
     const files = e.dataTransfer.files;
-    console.log(files);
+
     if(files.length)
     {
         fileinput.files=files;
