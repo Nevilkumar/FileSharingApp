@@ -14,6 +14,7 @@ const toast = document.querySelector('.toast');
 const host = 'http://localhost:8000/' ;
 const uploadurl = `${host}api/files`;
 
+
 dropzone.addEventListener("dragover", (e) => {
     
     e.preventDefault();
