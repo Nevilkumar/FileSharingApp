@@ -68,11 +68,9 @@ const uploadFile = () => {
     xhr.open("POST",uploadurl);
 
     xhr.onreadystatechange = () => {
-        console.log(xhr.readyState);    
         if(xhr.readyState === XMLHttpRequest.DONE){
             title1.innerText = 'Uploaded Sucessfully';
             sharingcontainer.style.display = 'block';
-            console.log(xhr.response);
             showlink(JSON.parse(xhr.response));
         }
     };
@@ -101,7 +99,6 @@ const updateprogress = (e) => {
 
 const showlink = ({file}) => {
     fileURL.value = file;
-    console.log(file);
 };
 
 let toasttimer;

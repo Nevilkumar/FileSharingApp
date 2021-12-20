@@ -1,6 +1,6 @@
 # FileSharingApp
-A File Sharing App using nodejs and mongodb as a database.
+A File Sharing App using NodeJS and Mongodb as a database.
 
-<img src="https://github.com/Nevilkumar/FileSharingApp/blob/main/Readme_Images/1.png" />
+<img src="Readme_Images/1.png" />
 
-<img src="https://github.com/Nevilkumar/FileSharingApp/blob/main/Readme_Images/2.png" />
+<img src="Readme_Images/2.png" />
